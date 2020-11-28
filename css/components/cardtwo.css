@@ -1,0 +1,52 @@
+
+.cardstwo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+}
+
+.cardtwo {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 10px 30px rgb(0, 0, 0, 0.2);
+  border-radius: 6px;
+  margin : 10px;
+  flex-basis: 100px;
+  flex-grow: 1;
+}
+
+#
+.cardtwo img {
+  display: flex;
+  flex-wrap: wrap;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.cardtwo h3 {
+  flex-grow: 1;
+  padding-left: 20px;
+  font-size: 28px;
+}
+
+#chef-smaller {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 10px 30px rgb(0, 0, 0, 0.2);
+  border-radius: 6px;
+  margin : 0px auto;
+  flex-basis: 100px;
+  flex-grow: 1;
+  width: 300px;
+}
+#chef-smaller h3 {
+  flex-grow: 1;
+  padding-right: 20px;
+  font-size: 30px;
+}
